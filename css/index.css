@@ -1,0 +1,210 @@
+@import url(base.css);
+body{
+	background:#f9f1cd url("../img/bg.gif") no-repeat;
+	background-repeat:no-repeat;
+	background-position:center -22px;
+	background-size:100%;
+	width:100%;
+	position: relative;
+	
+}
+.header-text{
+	width: 100%;
+    height: 166px;
+    background: url(../img/gb.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-top: 141px;
+    background-size: 21%;
+	}
+.jx{
+	width: 526px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 7px;
+    text-align: center;
+    line-height: 57px;
+    color: #fff;
+    font-size: 20px;
+    background-size: 10%;
+    background: url(../img/juxing.png);
+    background-repeat: no-repeat;
+    background-size: 77%;
+    background-position: 43% bottom;
+}
+.singles-day{
+	width: 100%;
+	
+ }
+p.con1{
+	color: #fc644e;
+   
+    margin: 48% auto 20px auto;
+    max-width:50%;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+   
+
+}
+
+.singles-day h1{
+	 font-size: 36px;
+	 color:#fc5a45;
+	
+}
+
+/*活动一*/
+.active1-box{
+	width: 69%;
+	
+	
+	position: relative;
+	background: #fc5a45;
+	border-radius:4px;
+	margin:0 auto;
+	z-index: 20;
+	background-image:url(../img/jy-1.jpg)\9;
+ }
+
+ .active1-box span,.active1-box em{
+ 	 color:#fff;
+ 	 font-size: 20px;
+ 	 font-style: normal;
+ 	 
+ }
+ .active1-box-padding{
+ 	
+  	 box-sizing:border-box;
+  	 padding:78px 92px;
+  	
+ }
+  .active1-box div{
+  	line-height: 36px;
+  	 /*position:relative;*/
+  	 
+  }
+  .active1{
+  	margin:0 auto;
+  	text-align:center;
+    margin-bottom:36px;
+  }
+  
+  .active2{
+     height:102px;
+  }
+  .active2>img{
+  	margin-top:45px;
+  }
+  .active1 img{
+  	 display: inline-block;
+  }
+  .active1-box div em{
+  	 margin-left:11px;
+  }
+  .active1-tit{
+  	
+  	width: 55.8%;
+    height: 52px;
+    position: absolute;
+    left: 50%;
+    margin-left: -267px;
+    top: -20px;
+    background: #fcde00;
+   
+    background-repeat:no-repeat;
+    background-position: center 13px;
+    z-index: 3;
+    border-radius:0 0 13px 13px;
+    background:#fc5a45 url(../img/yyx4.png)\9;
+  }
+  
+  .active2-tit{
+  	
+  	  background:#fc5a45 url(../img/yyx4.png)\9;
+  	  
+  }
+  .yjjx{
+  	position: absolute;
+    height: 20px;
+    width: 565px;
+    background: #911724;
+    left: 50%;
+    margin-left: -282.5px;
+    top: -20px;
+    z-index: 0;
+    border-radius: 21px 21px 0px 0px;
+    height: 21px\9;
+   	background:url(../img/yyx3.png)\9;
+  }
+  .active1-tit>img{
+  	 display: block;
+  	 margin:0 auto;
+  	 margin-top:10px;
+  	 
+  }
+  .active2-box{
+  	margin-bottom:25px;
+  	margin-top:10px;
+  	height:424px;
+  	
+  	background-image:url(../img/yyx2.jpg)\9;
+  	
+  }
+  .lqq{
+	position: absolute;
+    bottom: 20%;
+    left: 85px;
+   
+}
+.active2-box table{
+	 width: 42.7%;
+	 margin-left:66px;
+	 border-radius:20px;
+	 background: #fff;
+	 margin-top:94px;
+	 float: left;
+}
+.active2-box table td{
+	width: 50%;
+	text-align: center;
+	border-right:1px solid #fc5a45;
+	border-bottom:1px solid #fc5a45;
+	height:48px;
+	font-size: 20px;
+	color:#fc5a45;
+}
+.active2-right{
+	float: right;
+	margin-right:35px;
+	margin-top:130px;
+}
+.active2-right div{
+	max-width: 358px;
+	
+	
+}
+.active2-right div em{
+	margin-left: 11px;
+    max-width: 240px;
+    display: inline-block;
+}
+.active2-right div span{
+	float: left;
+}
+.active2-right div.s-size{
+font-size: 16px;
+line-height: 24px!important;
+color:#fff;
+margin-top:20px;
+}
+/*响应式*/
+/*@media screen and (min-width: 1000px) and (max-width: 1200px){
+
+}*/
+@media screen and (max-width: 768px){
+  p.con1{
+    font-size: 12px;
+    line-height: 25px;
+  }
+}
