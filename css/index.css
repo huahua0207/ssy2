@@ -127,15 +127,13 @@ p.con1{
   .yjjx{
   	position: absolute;
     height: 20px;
-    width: 565px;
+    width: 58.8%;
     background: #911724;
     left: 50%;
     margin-left: -282.5px;
     top: -20px;
     z-index: 0;
     border-radius: 21px 21px 0px 0px;
-    height: 21px\9;
-   	background:url(../img/yyx3.png)\9;
   }
   .active1-tit>img{
   	 display: block;
