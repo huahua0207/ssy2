@@ -249,6 +249,7 @@ margin-top:20px;
   }
   p.con1{
     margin-bottom:10px;
+    margin-top:133%;
   }
   .active2-right{
     width: 81%;
@@ -282,6 +283,9 @@ margin-top:20px;
    .active2-right div.s-size {
     font-size: 14px;
 
+    }
+    body{
+     background-size:280%;
     } 
 
 }
@@ -311,7 +315,7 @@ margin-top:20px;
     
   }
   p.con1{
-    font-size: 16px;
+    font-size: 18px;
    
   }
   .active1-box div {
